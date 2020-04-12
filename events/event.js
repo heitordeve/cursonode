@@ -8,4 +8,4 @@ meuEvento.on('seguranca', (x,y)=>{
     console.log(`Executando o evento 'seguranca: ${x} ${y} `)
 })
 
-meuEvento.emit('seguranca', 'userAdmin', 'Alterou Salário')
+meuEvento.emit('seguranca', 'userAdmin', 'Alterou Salário') 
