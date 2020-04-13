@@ -7,7 +7,7 @@ if(process.argv[2]){
     const start = parseInt(process.argv[3])
     const end = parseInt(process.argv[4])
 
-    for (let i = start; i <= end; i++) {
+    for (let i = start; i <= end; i++) { 
         videos.push(i);
         
     }
