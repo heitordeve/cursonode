@@ -7,8 +7,9 @@ const app = express()
 app.use(bodyParser.urlencoded({extended:true}))
 
 app.get('/',(req, res)=>{
-    res.json({message: 'Bem Vindo'})
-})
+    //res.json({message: 'Bem Vindo'})
+    res.sendfile(__dirname+'/index.html') 
+}) 
 
 app.listen(3000, '127.0.0.1',()=>{
     console.log(`Server Running on port 3000`)
