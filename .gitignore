@@ -5,3 +5,5 @@ package-lock.json
 /exp/hcodeApp/node_modules
 
 /exp/node_modules
+
+/upload-express/node_modules
