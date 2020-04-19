@@ -9,3 +9,4 @@ package-lock.json
 /upload-express/node_modules
 
 /rest-api/node_modules
+/rest-api/.env
