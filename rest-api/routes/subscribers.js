@@ -1,23 +1,23 @@
 const express = require('express')
 const router = express.Router()
 
-router.get('/', (res, req)=>{
-    
-})
+router.get('/', (req, res)=>{
+    res.send('REST API ok!');
+}) 
 
-router.get('/:id', (res, req)=>{
-
-})
-
-router.post('/', (res, req)=>{
+router.get('/:id', (req, res)=>{
 
 })
 
-router.patch('/:id', (res, req)=>{
+router.post('/', (req, res)=>{
 
 })
 
-router.delete('/:id', (res, req)=>{
+router.patch('/:id', (req, res)=>{
+
+})
+
+router.delete('/:id', (req, res)=>{
 
 })
 

@@ -1,0 +1,3 @@
+### Acessando via GET
+GET http://localhost:3000/subscribers
+### 
