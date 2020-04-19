@@ -7,3 +7,5 @@ package-lock.json
 /exp/node_modules
 
 /upload-express/node_modules
+
+/rest-api/node_modules
