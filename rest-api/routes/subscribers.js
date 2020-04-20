@@ -34,8 +34,13 @@ router.patch('/:id', getSubscriber , (req, res)=>{
 
 })
 
-router.delete('/:id', getSubscriber, (req, res)=>{
-
+router.delete('/:id', getSubscriber, async (req, res)=>{
+        try {
+            await res.subscriber.remove()
+            res.json({message: 'Subscriber was deleted'})
+        } catch (error) {
+            return res.status(500).json({message: error.message})
+        }
 })
 
 async function getSubscriber(req, res, next){
@@ -45,7 +50,7 @@ async function getSubscriber(req, res, next){
             return res.status(404).json({message:'subscriber not found'})
         }
     } catch (error) {
-        return res.status(500).json({message: error})
+        return res.status(500).json({message: error.message})
     }
 
     res.subscriber = subscriber

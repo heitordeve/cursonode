@@ -5,9 +5,11 @@ POST http://localhost:3000/subscribers
 Content-Type: application/json
 
 {
-    "userName": "Heitor Carlos",
+    "userName": "José da Silva",
     "userChannel": "hcodebrasil"
 }
 ###
 GET http://localhost:3000/subscribers/5e9bbed7c063ce3b2075eda2
+###
+DELETE http://localhost:3000/subscribers/5e9bbed7c063ce3b2075eda2
 ###
