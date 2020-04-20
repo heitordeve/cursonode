@@ -13,3 +13,10 @@ GET http://localhost:3000/subscribers/5e9bbed7c063ce3b2075eda2
 ###
 DELETE http://localhost:3000/subscribers/5e9bbed7c063ce3b2075eda2
 ###
+PATCH http://localhost:3000/subscribers/5e9cef5a2613053ee802cf62
+Content-Type: application/json
+
+{
+    "userName": "José de Souza"
+}
+###
