@@ -10,3 +10,5 @@ package-lock.json
 
 /rest-api/node_modules
 /rest-api/.env
+
+yarn.lock
